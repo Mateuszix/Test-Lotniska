@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1067&q=80");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#pole1 {
+  position: fixed;
+  flex-direction: column;
+}
+p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: -10rem;
+  color: rgb(0, 0, 0);
+}
+@media (max-width: 650px) {
+  p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: -10rem;
+    color: rgb(0, 0, 0);
+  }
+}
